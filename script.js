@@ -1,7 +1,6 @@
 
  function indexOfIgnoreCase(s1, s2) {
-  let index = s1.toLowerCase().match(s2.toLowerCase()).index
-  return index;
+ return s1.toLowerCase().indexOf(s2.toLowerCase());
 }
 
 
